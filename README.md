@@ -1,4 +1,4 @@
-# 21_days_of_code_challenge
+# 21 Days of Code Challenge
 
 A challenge to code w1 days straight.
 
