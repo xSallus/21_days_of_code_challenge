@@ -10,4 +10,4 @@ A challenge to code w1 days straight.
 - [ ] Day 06: An awesome card with glassmorphism.
 - [ ] Day 07: An awesome timer.
 
-> Current streak: 02/21 and counting.. :D
+> Current streak: 04/21 and counting.. :D
