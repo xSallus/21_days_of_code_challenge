@@ -1,0 +1,34 @@
+:root {
+	color-scheme: light dark;
+	--bg: url("./assets/playful_cat.svg");
+}
+
+* {
+  font-family: Inter, Avenir, Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #242424;
+	color: #f0f2f5;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #213547;
+    background-color: #f0f2f5;
+	}
+}
