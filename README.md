@@ -9,5 +9,6 @@ A challenge to code 21 days straight.
 - [x] Day 05: An awesome 404 page.
 - [x] Day 06: An awesome card with glassmorphism.
 - [x] Day 07: An awesome timer.
+- [x] Day 08: An awesome theme switcher.
 
 > Current streak: 04/21 and counting.. :D
