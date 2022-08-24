@@ -10,5 +10,6 @@ A challenge to code 21 days straight.
 - [x] Day 06: An awesome card with glassmorphism.
 - [x] Day 07: An awesome timer.
 - [x] Day 08: An awesome theme switcher.
+- [x] Day 09: An awesome loading animation.
 
-> Current streak: 04/21 and counting.. :D
+> Current streak: 09/21 and counting.. :D
