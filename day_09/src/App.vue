@@ -1,29 +1,26 @@
 <script setup>
-import Loading from './components/loading.vue'
+import Loading from './components/pika-loadig.vue'
 import './composables/loading.js'
 </script>
 
 <template>
-<main id="content">
-  <img
-	  src="./assets/pikachu-running.gif"
-		alt="A pikachu running gif"
-	/>
-  <Loading />
-</main>
+  <main id="content">
+    <img src="./assets/pikachu-running.gif" alt="A pikachu running gif" />
+    <Loading />
+  </main>
 </template>
 
 <style scoped>
 #content {
   width: 100vw;
-	min-height: 100vh;
-	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  min-height: 100vh;
 
-	background-color: #633BBC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #633bbc;
 }
 
 img {

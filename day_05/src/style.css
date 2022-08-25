@@ -1,6 +1,6 @@
 :root {
-	color-scheme: light dark;
-	--bg: url("./assets/background.jpeg");
+  color-scheme: light dark;
+  --bg: url("./assets/background.jpeg");
 }
 
 * {
@@ -12,31 +12,30 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
 
-	background: var(--bg) no-repeat;
-	background-position: 50%;
-	background-size: cover;
-	color: #f0f2f5;
+  background: var(--bg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  color: #f0f2f5;
 
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-@media(max-width:869px) {
-	html {
-		font-size: 87.5%;
-	}
+@media (max-width: 869px) {
+  html {
+    font-size: 87.5%;
+  }
 }

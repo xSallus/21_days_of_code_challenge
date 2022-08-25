@@ -1,7 +1,7 @@
 :root {
-	color-scheme: light dark;
-	--bg-dark: #633BBC;
-	--bg-light:  #996DFF;
+  color-scheme: light dark;
+  --bg-dark: #633bbc;
+  --bg-light: #996dff;
 }
 
 * {
@@ -16,8 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

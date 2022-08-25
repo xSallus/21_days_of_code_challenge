@@ -3,5 +3,5 @@ import AnimatedButton from './components/AnimatedButton.vue'
 </script>
 
 <template>
-<AnimatedButton />
+  <AnimatedButton />
 </template>

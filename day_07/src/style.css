@@ -1,5 +1,5 @@
 :root {
-	color-scheme: light dark;
+  color-scheme: light dark;
 }
 
 * {
@@ -14,20 +14,19 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #242424;
-	color: #f0f2f5;
+  background-color: #242424;
+  color: #f0f2f5;
 }
 
 @media (prefers-color-scheme: light) {
   body {
     color: #213547;
     background-color: #f0f2f5;
-	}
+  }
 }
