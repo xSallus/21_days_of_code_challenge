@@ -11,5 +11,6 @@ A challenge to code 21 days straight.
 - [x] Day 07: An awesome timer.
 - [x] Day 08: An awesome theme switcher.
 - [x] Day 09: An awesome loading animation.
+- [x] Day 10: An awesome animation with particlejs.
 
 > Current streak: 09/21 and counting.. :D
