@@ -1,24 +1,24 @@
 //import { loadFull } from 'tsparticles'
-import { loadStarsPreset } from 'tsparticles-preset-stars'
+import { loadStarsPreset } from "tsparticles-preset-stars";
 
 export const options = {
-    background: {
-        color: {
-            value: 'transparent',
-        },
+  background: {
+    color: {
+      value: "transparent",
     },
-    fpsLimit: 60,
-    preset: 'stars',
-    interactivity: {
-        mode: 'bubble',
+  },
+  fpsLimit: 60,
+  preset: "stars",
+  interactivity: {
+    mode: "bubble",
+  },
+  number: {
+    density: {
+      enable: false,
     },
-    number: {
-        density: {
-            enable: false,
-        },
-        value: 100,
-    },
-    /*particles: {
+    value: 100,
+  },
+  /*particles: {
     color: {
       //value: '#03c006'
       value:  ['#FF5A86', '#953AFE', '#FFC326', '#46C0FF', '#ddd', '#03c006'],
@@ -65,13 +65,13 @@ export const options = {
     },
 	},
 	detectRetina: true*/
-}
+};
 
 export const particlesInit = async (engine: any) => {
-    console.log(engine)
-    await loadStarsPreset(engine)
-}
+  console.log(engine);
+  await loadStarsPreset(engine);
+};
 
 export const particlesLoaded = async (container: any) => {
-    console.log('Particles container loaded', container)
-}
+  console.log("Particles container loaded", container);
+};
