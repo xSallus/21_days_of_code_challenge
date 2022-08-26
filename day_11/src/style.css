@@ -1,0 +1,41 @@
+* {
+  font-family: Inter, Roboto, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #e3e3e3;
+}
+
+*::focus {
+  outline: 1px solid #37f7a7;
+}
+
+html {
+  font-size: 16px;
+  background-color: #242424;
+}
+
+#app {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 869px) {
+  html {
+    font-size: 14px;
+  }
+}
