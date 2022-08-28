@@ -13,5 +13,6 @@ A challenge to code 21 days straight.
 - [x] Day 09: An awesome loading animation.
 - [x] Day 10: An awesome animation with particlejs.
 - [x] Day 11: An awesome login form.
+- [x] Day 12: An awesome image gallery.
 
-> Current streak: 11/21 and counting.. :D
+> Current streak: 12/21 and counting.. :D
