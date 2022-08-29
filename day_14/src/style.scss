@@ -1,3 +1,5 @@
+@import "./assets/colors.scss";
+
 :root {
   --path: polygon(15% 15%, 50% 0, 85% 15%, 85% 85%, 50% 100%, 15% 85%);
 }
@@ -20,13 +22,13 @@
   color: #e3e3e3;
 }
 
-*::focus {
+/*::focus {
   outline: 1px solid #37f7a7;
-}
+}*/
 
 html {
   font-size: 16px;
-  background-color: #242424;
+  background-color: $bg;
 }
 
 #app {

@@ -11,7 +11,9 @@
     "pretty": "prettier --write"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "eruda-dom": "^2.0.0",
+    "sass": "^1.54.5",
     "vue": "^3.2.37"
   },
   "devDependencies": {

@@ -1,13 +1,23 @@
 <script setup lang="ts">
-import { onUnmounted } from 'vue'
-import Gallery from './components/gallery-wrapper.vue'
-import { timeout } from './composables/scroll'
+import { onMounted, onUnmounted } from 'vue'
+import Quiz from './components/quiz-wrapper.vue'
+import FinishedQuizModal from './components/quiz-finshed.vue'
+import SLoader from './components/quiz-loader.vue'
 
-onUnmounted(() => clearInterval(timeout))
+import { hasFinishedQuiz, isLoadingQuizzes, timeouts, fetchQuizzes, answers } from './composables/quizzes'
+
+onMounted(fetchQuizzes)
+onUnmounted(() => {
+  timeouts.forEach(clearTimeout)
+})
 </script>
 
 <template>
-  <Gallery />
+  <SLoader v-if="isLoadingQuizzes" color="#242424" />
+	<FinishedQuizModal v-else-if="hasFinishedQuiz" />
+	<Quiz v-else />
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+@import "./assets/colors.scss";
+</style>

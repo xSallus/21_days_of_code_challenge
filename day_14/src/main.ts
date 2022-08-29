@@ -4,7 +4,7 @@ import eruda from 'eruda'
 import erudaDOM from 'eruda-dom'
 import App from './App.vue'
 
-import './style.css'
+import './style.scss'
 
 createApp(App).mount('#app')
 

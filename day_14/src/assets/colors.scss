@@ -1,0 +1,35 @@
+$white: #f0f2f5;
+
+$green: #007933;
+
+$red: #b8131380;
+
+$bg: #242424;
+
+$question-bg: #56565633;
+
+$badge-bg: rgba(255,255,255,0.28);
+
+$loader-bg: linear-gradient(90deg,$white,transparent 88%);
+
+$smooth: cubic-bezier(0.7,0.7,0.7,0.7);
+
+@keyframes SPIN {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes SHOWUP {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
