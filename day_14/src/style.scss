@@ -36,8 +36,11 @@ html {
   min-height: 100vh;
 
   display: flex;
+	flex-direction: column;
   align-items: center;
   justify-content: center;
+
+	scroll-behavior: smooth;
 }
 
 @media (max-width: 869px) {

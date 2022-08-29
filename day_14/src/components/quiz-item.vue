@@ -133,7 +133,7 @@ watch(selectedAnswer, () => {
 			}
 
 			span {
-			  color: #555;
+			  color: $badge-bg;
 			  text-align: left;
 				flex: 1;
 			}

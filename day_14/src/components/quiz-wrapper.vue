@@ -1,29 +1,33 @@
 <script setup lang="ts">
 import { quizzes, handleFinishQuiz, isSubmittingQuiz, answers } from '../composables/quizzes'
 import QQuestion from './quiz-item.vue'
+import Header from './quiz-header.vue'
 import Loader from './quiz-loader.vue'
 </script>
 
 <template>
-  <div class="questions-container">
-    <QQuestion
-	    v-for="(question, index) in quizzes"
-			:quiz="question"
-			:index="index"
-		  :key="index"
-	  />
-		<button
+  <Header />
+	<main>
+    <div class="questions-container">
+      <QQuestion
+  	    v-for="(question, index) in quizzes"
+  			:quiz="question"
+  			:index="index"
+  		  :key="index"
+  	  />
+  		<button
 		  class="quiz-finish__button"
-			@click="handleFinishQuiz"
-			:disabled="isSubmittingQuiz || answers.some(answer => !answer)"
-		>
-		  <Loader
-			  v-if="isSubmittingQuiz"
-				color="#007933"
-			/>
-		  <span v-else>FINISH</span>
-		</button>
-	</div>
+  			@click="handleFinishQuiz"
+	  		:disabled="isSubmittingQuiz || answers.some(answer => !answer)"
+		  >
+		    <Loader
+			    v-if="isSubmittingQuiz"
+  				color="#007933"
+	  		/>
+		    <span v-else>FINISH</span>
+		  </button>
+  	</div>
+	</main>
 </template>
 
 <style scoped lang="scss">
