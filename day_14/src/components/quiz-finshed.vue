@@ -1,4 +1,12 @@
 <script setup lang="ts">
+import { quizzes, startOver } from '../composables/quizzes'
+const {score, correctAnswers} = quizzes.reduce((acc, curr) => {
+  if(curr.status !== 'correct') return acc
+
+	acc.score += curr.points
+	acc.correctAnswers += 1
+	return acc
+}, { score:0, correctAnswers:0 })
 </script>
 
 <template>
@@ -16,7 +24,7 @@
 				/>
 				<p>
 				  SCORE EARNED
-					<span>0</span>
+					<span>{{score}}</span>
 				</p>
 			</div>
 
@@ -29,12 +37,15 @@
 				/>
 				<p>
 				  CORRECT ANSWERS
-					<span>0</span>
+					<span>{{correctAnswers}}</span>
 				</p>
 			</div>
 		</div>
 
-		<button class="congrats__finish__button">
+		<button
+		  class="congrats__finish__button"
+			@click="startOver"
+		>
 		  <span>START OVER</span>
 		</button>
 	</div>

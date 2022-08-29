@@ -15,6 +15,8 @@ A challenge to code 21 days straight.
 - [x] Day 11: An awesome login form.
 - [x] Day 12: An awesome image gallery.
 - [x] Day 13: An awesome responsive menu.
-- [] Day 14: An awesome quiz form.
+- [x] Day 14: An awesome quiz form.
 
-> Current streak: 13/21 and counting.. :D
+> Current streak: 14/21 and counting.. :D
+
+> Day 14 source figma is at it's own folder!
