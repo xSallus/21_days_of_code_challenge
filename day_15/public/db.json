@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Mixto Quente",
+      "price": 9.99,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKo8wnoZU5gsiRR9HD0W3imfRB0S5de0aWKw&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Kibe",
+      "price": 9.99,
+      "img": "https://img.freepik.com/free-photo/front-view-delicious-brazilian-food-composition_23-2148739224.jpg?w=740&t=st=1661869416~exp=1661870016~hmac=5c3b7008863ae16ff58738c9bce8d3c9483e16e33f428a165b4bf1daad3be1c9"
+    },
+    {
+      "id": 4,
+      "name": "x-Tudão",
+      "price": 9.99,
+      "img": "https://img.freepik.com/free-photo/hamburger-with-beef-meat-burger-fresh-vegetables-dark-surface_2829-5883.jpg?w=740&t=st=1661869224~exp=1661869824~hmac=fd68d5ceb2737ec8e147e71ab683d7805d3759e69ad5ad03627f2956789f34de"
+    },
+    {
+      "id": 5,
+      "name": "Cheese Burger",
+      "price": 9.99,
+      "img": "https://img.freepik.com/free-photo/front-view-burgers-stand_141793-15545.jpg?w=740&t=st=1661869310~exp=1661869910~hmac=3545f07f3f74f15074ba806c49c6896893e9caa9d4a06c8931e69dc6c3509b7a"
+    },
+    {
+      "id": 7,
+      "name": "x-Salada",
+      "price": 9.99,
+      "img": "https://img.freepik.com/free-photo/front-view-chicken-burger-with-cheese-green-salad-wooden-desk-grey-surface_140725-25942.jpg?w=740&t=st=1661868887~exp=1661869487~hmac=e089c8727bd13a15c4ae668266fa0d621bc10916e01396debb837535d590edce"
+    },
+    {
+      "id": 8,
+      "name": "Dogão da Skinna",
+      "price": 9.99,
+      "img": "https://img.freepik.com/free-photo/gourmet-grilled-all-beef-hot-dog-with-sides-chips-delicious-simple-hot-dogs-with-mustard-pepper-onion-nachos-hot-dogs-fully-loaded-with-assorted-toppings-paddle-board_1150-44653.jpg?w=740&t=st=1661868146~exp=1661868746~hmac=d825ec62ae060d98a4706b00855c18e7ce66a2a63031cbacf99d6bb205e52c06"
+    }
+  ]
+}
