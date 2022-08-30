@@ -5,7 +5,13 @@ import FinishedQuizModal from './components/quiz-finshed.vue'
 import SLoader from './components/quiz-loader.vue'
 import Header from './components/quiz-header.vue'
 
-import { hasFinishedQuiz, isLoadingQuizzes, timeouts, fetchQuizzes, answers } from './composables/quizzes'
+import {
+  hasFinishedQuiz,
+  isLoadingQuizzes,
+  timeouts,
+  fetchQuizzes,
+  answers,
+} from './composables/quizzes'
 
 onMounted(fetchQuizzes)
 onUnmounted(() => {
@@ -22,10 +28,10 @@ onUnmounted(() => {
 <style lang="scss">
 main {
   flex: 1;
-	width: 100%;
+  width: 100%;
   display: flex;
-	/*flex-direction: column;*/
-	align-items: center;
-	justify-content: center;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
 }
 </style>
