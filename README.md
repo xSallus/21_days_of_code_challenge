@@ -17,13 +17,13 @@ A challenge to code 21 days straight.
 - [x] Day 13: An awesome responsive menu.
 - [x] Day 14: An awesome quiz form.
 - [x] Day 15: An awesome ecommerce showcase.
-- [] Day 16: An awesome site with a public api.
+- [x] Day 16: An awesome app with a public api.
 - [] Day 17: An awesome key logger.
 - [] Day 18: An awesome password generator.
 - [] Day 19: An awesome image generator with unsplaah api.
 - [] Day 20: An awesome emoji picker.
 - [] Day 21: An awesome portifolio with all previews challenges.
 
-> Current streak: 15/21 and counting.. :D
+> Current streak: 16/21 and counting.. :D
 
 > Day 14 source figma is at it's own folder!
