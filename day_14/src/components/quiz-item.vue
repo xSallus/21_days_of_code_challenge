@@ -33,23 +33,30 @@ watch(selectedAnswer, () => {
         {{ quiz.points }}
       </span>
     </header>
-    <fieldset role="radiogroup">
-      <label
+    <ol role="radiogroup" type="A">
+      <li
         v-for="answer in questionAnswers"
-        class="question-answer"
-        :class="{ selected: selectedAnswer === answer }"
         :key="answer"
+				class="question-answer"
+				:class="{ selected: selectedAnswer === answer }"
       >
-        <img
-          v-if="selectedAnswer === answer"
-          src="../assets/success.svg"
-          alt="An heptagonal polygon with an chack mark inside"
-        />
-        <div v-else class="question-answer__letter">A</div>
-        <input type="radio" :value="answer" v-model="selectedAnswer" />
-        <span>{{ answer }}</span>
-      </label>
-    </fieldset>
+				<label>
+          <img
+            v-if="selectedAnswer === answer"
+            src="../assets/success.svg"
+            alt="An heptagonal polygon with an chack mark inside"
+          />
+
+					<input
+					  type="radio"
+						:value="answer"
+						v-model="selectedAnswer"
+					/>
+
+					<span>{{ answer }}</span>
+				</label>
+      </li>
+    </ol>
   </div>
 </template>
 
@@ -101,25 +108,52 @@ watch(selectedAnswer, () => {
     }
   }
 
-  fieldset {
+  ol {
     width: 100%;
     border: 0;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 
+		list-style: none;
+
     .question-answer {
       width: 100%;
       height: 6rem;
       padding: 0.5rem 1.25rem;
       border-radius: 4px;
-
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 1rem;
-
       position: relative;
+
+			label {
+			  width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				gap: 1rem;
+
+
+				&::before {
+				  color: $badge-bg;
+				}
+			}
+
+			&:first-of-type label::before {
+			  content: "A )";
+			}
+
+			&:nth-of-type(2) label::before {
+			  content: "B )";
+			}
+
+			&:nth-of-type(3) label::before {
+			  content: "C )";
+
+			}
+
+			&:last-of-type label::before {
+			  content: "D )";
+			}
 
       input {
         position: absolute;
@@ -143,6 +177,10 @@ watch(selectedAnswer, () => {
         span {
           color: $white;
         }
+
+				& label::before {
+				  display: none;
+				}
       }
 
       &__letter {
