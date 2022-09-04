@@ -1,0 +1,30 @@
+{
+  "name": "day_20",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.vue --ignore-pattern .d.ts",
+    "pretty": "prettier --write"
+  },
+  "dependencies": {
+    "eruda-dom": "^2.0.0",
+    "sass": "^1.54.5",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eruda": "^2.5.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}
