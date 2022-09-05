@@ -22,8 +22,10 @@ A challenge to code 21 days straight.
 - [x] Day 18: An awesome password generator.
 - [x] Day 19: An awesome image generator with unsplaah api.
 - [x] Day 20: An awesome emoji picker.
-- [ ] Day 21: An awesome portifolio with all previews challenges.
+- [x] Day 21: An awesome portifolio with all previews challenges.
 
-> Current streak: 20/21 and counting.. :D
+> Current streak: 21/21.. Finale :D 
 
-> Day 14 source figma is at it's own folder!
+> Day 14 source base figma is at it's own readme!
+
+> Day 21 source base figma is at it's own readme!
