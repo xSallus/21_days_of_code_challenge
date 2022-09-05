@@ -1,8 +1,8 @@
+@import './reset.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import './reset.css';
 
 body {
   scroll-bahavior: smooth;
